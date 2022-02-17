@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten nhan vien"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Them "
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/bntXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoa"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/bntSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sua"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
